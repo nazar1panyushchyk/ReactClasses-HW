@@ -1,0 +1,58 @@
+.enter-task {
+    display: flex;
+    gap: 40px;
+}
+
+.task-list {
+    width: 323px;
+    border-radius: 30px;
+    background-color: rgba(10, 26, 80, 0.979);
+    padding: 10px;
+}
+
+input {
+    border-radius: 25px;
+    border: 3px solid rgb(25, 2, 55);
+    background-color: rgb(15, 41, 106);
+}
+
+input::placeholder {
+    text-align: center;
+    color: rgb(197, 197, 43);
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button-add-task {
+    border-radius: 25px;
+    border: 3px solid rgb(25, 2, 55);
+    font-weight: bold;
+    background-color: rgb(15, 41, 106);
+    color: rgb(197, 197, 43);
+}
+
+.task-list-items {
+    display: flex;
+    justify-content: center;
+}
+
+.task-list-items li {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+.button-delete {
+    border-radius: 25px;
+    border: 3px solid rgb(25, 2, 55);
+    font-weight: bold;
+    background-color: rgb(197, 197, 43);
+    color: rgb(15, 41, 106);
+}
+
+span {
+     color: rgb(197, 197, 43);
+     font-weight: bold;
+}
