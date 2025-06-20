@@ -1,5 +1,5 @@
 import { Component } from "react";
-import './css/TaskList.css';
+import './css/tasklist.css';
 import { MdOutlineAddTask } from "react-icons/md";
 
 export default class TaskList extends Component {
